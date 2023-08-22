@@ -30,8 +30,7 @@ var sunnyday3=document.getElementById("sunnyday3")
 
 // get api
 async function getapi(city){
-var api =await fetch(`
-http://api.weatherapi.com/v1/forecast.json?key=c97afb4fd14a4b3a826152536232108&q=${city}&days=7`)
+var api =await fetch(`https://api.weatherapi.com/v1/forecast.json?key=c97afb4fd14a4b3a826152536232108&q=${city}&days=7`)
    
     var response =await api.json();
     return response
