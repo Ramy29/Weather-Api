@@ -36,7 +36,7 @@
 }
 .days {
     padding-top: 50px;
-    margin-left: 125px;
+    
 }
 .card {
     background-color: #323544;
@@ -82,7 +82,7 @@ p {
 }
 #timezone ,#days {
     color: darkcyan;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 #timezoneday2 ,#timezoneday3{
     color: darkcyan;
