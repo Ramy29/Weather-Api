@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    height: 20vh;
+    width: 100%;
+    background-color: #1E202B;
+    color: rgb(220, 225, 245);   
+}
+.navbar-brand {
+    font-size: 30px;   
+}
+.navbar-nav {   
+    margin-left: 600px;
+    font-weight: 900;
+}
+.nav-item {
+   display: flex;
+   justify-content: space-around; 
+}
+.home {
+    padding-top: 50px;
+    height: 80vh;
+    background-image: url(./images/singapore-1990959_1280.jpg);
+    background-size: 100% 100%;
+}
+.home input {
+    
+    margin: auto;
+    border-radius: 10px;
+    background-color: #1E202B;
+    text-align: center;
+    color: aqua;
+}
+.days {
+    padding-top: 50px;
+    margin-left: 125px;
+}
+.card {
+    background-color: #323544;
+    color: white;
+}
+.card2 {
+    background-color: #32354491;
+}
+footer {
+    padding-top: 30px;
+    text-align: center;
+    background-color: #323544;
+    height: 20vh;
+}
+footer .form-control {
+    background-color: #1e202b10;
+    text-align: center;
+    margin-left: 50px;
+}
+p {
+    color: beige;
+    padding-top: 10px;
+    text-align: center;
+}
+.card-title {
+    color: crimson;
+    font-weight: 900;  
+    padding-left: 0%;
+}
+#number{
+    font-weight: 200;
+    color: chocolate;
+    padding-bottom: 20px;
+}
+#sunny {
+    font-weight: 100;
+    color: aqua;
+}
+#percentage,#speed,#direction {
+    padding-right: 40px;
+    color: darkgray;
+    font-weight: 200;
+}
+#timezone ,#days {
+    color: darkcyan;
+    padding-left: 40px;
+}
+#timezoneday2 ,#timezoneday3{
+    color: darkcyan;
+}
+#numbertemp ,#numberday3 {
+    color: chocolate;
+    font-weight: 200;
+}
+#sunnyday2 , #sunnyday3 {
+    font-weight: 100;
+    color: aqua;
+}
+#month{
+    
+    color: darkgray;
+}
